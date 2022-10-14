@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 
 function Sobre() {
     return <div>Bem-vindo a página sobre!</div>

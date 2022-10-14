@@ -1,10 +1,11 @@
 {
-  "name": "nextjs-project",
+  "name": "project-netflix",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit l",
+    "dev": "next dev, node server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {}
+  }
 }
